@@ -201,6 +201,8 @@ def display_raw(df):
             print(df[df.columns[0:]].iloc[lo_colm:up_colm])
             lo_colm+=5
             up_colm+=5
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-'*40) 
 
 def main():
     
