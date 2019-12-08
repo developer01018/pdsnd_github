@@ -187,6 +187,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 def display_raw(df):
+    """Displays raw data on bikeshare users."""
     lo_colm=0
     up_colm=5
 
